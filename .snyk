@@ -1,0 +1,23 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:http-signature:20150122':
+    - om-mailer > less > request > http-signature:
+        patched: '2018-07-03T02:13:12.167Z'
+    - om-email-invitation > om-mailer > less > request > http-signature:
+        patched: '2018-07-03T02:13:12.167Z'
+  'npm:lodash:20180130':
+    - om-mailer > email-templates > lodash:
+        patched: '2018-07-03T02:13:12.167Z'
+    - om-mailer > email-templates > juice > cheerio > lodash:
+        patched: '2018-07-03T02:13:12.167Z'
+    - om-mailer > email-templates > juice > web-resource-inliner > lodash:
+        patched: '2018-07-03T02:13:12.167Z'
+    - om-email-invitation > om-mailer > email-templates > lodash:
+        patched: '2018-07-03T02:13:12.167Z'
+    - om-email-invitation > om-mailer > email-templates > juice > cheerio > lodash:
+        patched: '2018-07-03T02:13:12.167Z'
+    - om-email-invitation > om-mailer > email-templates > juice > web-resource-inliner > lodash:
+        patched: '2018-07-03T02:13:12.167Z'
