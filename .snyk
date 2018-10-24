@@ -1,0 +1,81 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:minimatch:20160620':
+    - om-webrtc-backend > awesome-module-manager > grunt > minimatch:
+        patched: '2018-10-24T02:53:00.296Z'
+    - om-invitation > awesome-module-manager > grunt > findup-sync > glob > minimatch:
+        patched: '2018-10-24T02:53:00.296Z'
+    - om-mailer > awesome-module-manager > grunt > findup-sync > glob > minimatch:
+        patched: '2018-10-24T02:53:00.296Z'
+    - om-email-invitation > awesome-module-manager > grunt > findup-sync > glob > minimatch:
+        patched: '2018-10-24T02:53:00.296Z'
+    - om-websocket-server > awesome-module-manager > grunt > findup-sync > glob > minimatch:
+        patched: '2018-10-24T02:53:00.296Z'
+    - om-email-invitation > om-mailer > awesome-module-manager > grunt > findup-sync > glob > minimatch:
+        patched: '2018-10-24T02:53:00.296Z'
+    - om-email-invitation > om-invitation > awesome-module-manager > grunt > findup-sync > glob > minimatch:
+        patched: '2018-10-24T02:53:00.296Z'
+    - om-invitation > awesome-module-manager > grunt-contrib-jshint > jshint > cli > glob > minimatch:
+        patched: '2018-10-24T02:53:00.296Z'
+    - om-mailer > awesome-module-manager > grunt-contrib-jshint > jshint > cli > glob > minimatch:
+        patched: '2018-10-24T02:53:00.296Z'
+    - om-email-invitation > awesome-module-manager > grunt-contrib-jshint > jshint > cli > glob > minimatch:
+        patched: '2018-10-24T02:53:00.296Z'
+    - om-websocket-server > awesome-module-manager > grunt-contrib-jshint > jshint > cli > glob > minimatch:
+        patched: '2018-10-24T02:53:00.296Z'
+    - om-webrtc-backend > awesome-module-manager > grunt-contrib-jshint > jshint > cli > glob > minimatch:
+        patched: '2018-10-24T02:53:00.296Z'
+    - om-email-invitation > om-invitation > awesome-module-manager > grunt-contrib-jshint > jshint > cli > glob > minimatch:
+        patched: '2018-10-24T02:53:00.296Z'
+    - om-email-invitation > om-mailer > awesome-module-manager > grunt-contrib-jshint > jshint > cli > glob > minimatch:
+        patched: '2018-10-24T02:53:00.296Z'
+    - om-websocket-server > awesome-module-manager > grunt > minimatch:
+        patched: '2018-10-24T02:53:00.296Z'
+    - om-email-invitation > awesome-module-manager > grunt > minimatch:
+        patched: '2018-10-24T02:53:00.296Z'
+    - om-mailer > awesome-module-manager > grunt > minimatch:
+        patched: '2018-10-24T02:53:00.296Z'
+    - om-invitation > awesome-module-manager > grunt > minimatch:
+        patched: '2018-10-24T02:53:00.296Z'
+    - om-webrtc-backend > awesome-module-manager > grunt > findup-sync > glob > minimatch:
+        patched: '2018-10-24T02:53:00.296Z'
+    - om-websocket-server > awesome-module-manager > grunt > glob > minimatch:
+        patched: '2018-10-24T02:53:00.296Z'
+    - om-webrtc-backend > awesome-module-manager > grunt > glob > minimatch:
+        patched: '2018-10-24T02:53:00.296Z'
+    - om-email-invitation > om-invitation > awesome-module-manager > grunt > minimatch:
+        patched: '2018-10-24T02:53:00.296Z'
+    - om-email-invitation > awesome-module-manager > grunt > glob > minimatch:
+        patched: '2018-10-24T02:53:00.296Z'
+    - om-email-invitation > om-mailer > awesome-module-manager > grunt > minimatch:
+        patched: '2018-10-24T02:53:00.296Z'
+    - om-mailer > awesome-module-manager > grunt > glob > minimatch:
+        patched: '2018-10-24T02:53:00.296Z'
+    - om-invitation > awesome-module-manager > grunt > glob > minimatch:
+        patched: '2018-10-24T02:53:00.296Z'
+    - om-email-invitation > om-invitation > awesome-module-manager > grunt > glob > minimatch:
+        patched: '2018-10-24T02:53:00.296Z'
+    - om-email-invitation > om-mailer > awesome-module-manager > grunt > glob > minimatch:
+        patched: '2018-10-24T02:53:00.296Z'
+    - om-invitation > awesome-module-manager > grunt-contrib-jshint > jshint > minimatch:
+        patched: '2018-10-24T02:53:00.296Z'
+    - om-mailer > awesome-module-manager > grunt-contrib-jshint > jshint > minimatch:
+        patched: '2018-10-24T02:53:00.296Z'
+    - om-email-invitation > awesome-module-manager > grunt-contrib-jshint > jshint > minimatch:
+        patched: '2018-10-24T02:53:00.296Z'
+    - om-websocket-server > awesome-module-manager > grunt-contrib-jshint > jshint > minimatch:
+        patched: '2018-10-24T02:53:00.296Z'
+    - om-webrtc-backend > awesome-module-manager > grunt-contrib-jshint > jshint > minimatch:
+        patched: '2018-10-24T02:53:00.296Z'
+    - om-email-invitation > om-invitation > awesome-module-manager > grunt-contrib-jshint > jshint > minimatch:
+        patched: '2018-10-24T02:53:00.296Z'
+    - om-email-invitation > om-mailer > awesome-module-manager > grunt-contrib-jshint > jshint > minimatch:
+        patched: '2018-10-24T02:53:00.296Z'
+  'npm:tunnel-agent:20170305':
+    - om-mailer > less > request > tunnel-agent:
+        patched: '2018-10-24T02:53:00.296Z'
+    - om-email-invitation > om-mailer > less > request > tunnel-agent:
+        patched: '2018-10-24T02:53:00.296Z'
