@@ -35,7 +35,7 @@
     "marked": "0.3.6",
     "mongoconfig": "1.1.0",
     "mongodb": "2.2.10",
-    "mongoose": "4.6.0",
+    "mongoose": "5.12.3",
     "morgan": "1.7.0",
     "node-uuid": "1.4.7",
     "om-email-invitation": "0.0.4",
