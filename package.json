@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "async": "2.0.1",
-    "async-eventemitter": "0.2.2",
+    "async-eventemitter": "0.2.3",
     "awesome-chat": "git+https://ci.open-paas.org/stash/scm/om/awesome-chat.git",
     "awesome-collaborative-editor": "git+https://ci.open-paas.org/stash/scm/om/awesome-collaborative-editor.git",
     "awesome-module": "1.0.0",
