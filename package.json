@@ -20,7 +20,7 @@
     "cookie-parser": "1.4.3",
     "cors": "2.8.1",
     "email-addresses": "2.0.2",
-    "express": "4.14.0",
+    "express": "4.19.2",
     "express-domain-middleware": "0.1.0",
     "express-session": "1.14.1",
     "extend": "3.0.0",
